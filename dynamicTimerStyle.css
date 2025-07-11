@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 40px 20px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  /* Add Timer Button */
+  #addTimer {
+    display: block;
+    margin: 0 auto 40px auto;
+    padding: 12px 24px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #addTimer:hover {
+    background-color: #219150;
+  }
+  
+  /* Timer List */
+  .timer-list {
+    list-style: none;
+  }
+  
+  /* Timer Card */
+  .timer-list li {
+    background: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Timer Display */
+  span[id^="displayElement"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    color: #34495e;
+  }
+  
+  /* Button Group */
+  .timer-list button {
+    margin: 5px 8px 0 0;
+    padding: 8px 16px;
+    background-color: #bdc3c7;
+    color: #2c3e50;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .timer-list button:hover {
+    background-color: #95a5a6;
+  }
+  
+  .timer-list button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
